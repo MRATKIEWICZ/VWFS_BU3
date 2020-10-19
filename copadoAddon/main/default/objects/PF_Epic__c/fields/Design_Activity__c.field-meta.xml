@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Design_Activity__c</fullName>
+    <externalId>false</externalId>
+    <label>Current Design Activity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Proof of Concept</fullName>
+                <default>false</default>
+                <label>Proof of Concept</label>
+            </value>
+            <value>
+                <fullName>Prototyping</fullName>
+                <default>false</default>
+                <label>Prototyping</label>
+            </value>
+            <value>
+                <fullName>Design (UI)</fullName>
+                <default>false</default>
+                <label>Design (UI)</label>
+            </value>
+            <value>
+                <fullName>Detailed Design</fullName>
+                <default>false</default>
+                <label>Detailed Design</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

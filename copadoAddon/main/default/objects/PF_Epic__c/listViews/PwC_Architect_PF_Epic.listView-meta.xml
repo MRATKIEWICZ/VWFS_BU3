@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PwC_Architect_PF_Epic</fullName>
+    <filterScope>Queue</filterScope>
+    <label>PwC Architect</label>
+    <queue>PwC_Architect</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

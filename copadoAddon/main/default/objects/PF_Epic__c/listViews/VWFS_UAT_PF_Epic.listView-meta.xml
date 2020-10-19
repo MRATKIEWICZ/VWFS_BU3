@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VWFS_UAT_PF_Epic</fullName>
+    <filterScope>Queue</filterScope>
+    <label>VWFS UAT</label>
+    <queue>VWFS_UAT</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

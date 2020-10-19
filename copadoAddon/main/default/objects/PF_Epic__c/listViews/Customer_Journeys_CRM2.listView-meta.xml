@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Journeys_CRM2</fullName>
+    <columns>PF_Epic_Number__c</columns>
+    <columns>PF_FW_Customer_Experience__c</columns>
+    <columns>NAME</columns>
+    <columns>PF_FW_Evolution_Version__c</columns>
+    <columns>PF_FW_Capability__c</columns>
+    <columns>PF_FW_Cloud__c</columns>
+    <columns>PF_FW_CJ_Foundation_Feature__c</columns>
+    <columns>PF_FW_CRM__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PF_FW_CRM__c</field>
+        <operation>equals</operation>
+        <value>CRM2</value>
+    </filters>
+    <label>Customer Journeys - CRM2</label>
+</ListView>

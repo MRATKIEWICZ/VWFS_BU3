@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VWFS</fullName>
+    <fields>copado__User_Story_Title__c</fields>
+    <fields>OwnerId</fields>
+    <fields>Ready_for_Sprint__c</fields>
+    <fields>Developer_Tasks_Competed__c</fields>
+    <fields>Tests_Completed__c</fields>
+    <fields>Planned_Effort_d__c</fields>
+    <fields>Effort_d__c</fields>
+    <label>VWFS</label>
+</CompactLayout>
