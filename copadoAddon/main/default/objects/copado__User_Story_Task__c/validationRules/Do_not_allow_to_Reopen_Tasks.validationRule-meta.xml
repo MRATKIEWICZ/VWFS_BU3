@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_not_allow_to_Reopen_Tasks</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(copado__Status__c) &amp;&amp;
+text(priorvalue(copado__Status__c))=&#39;Completed&#39; &amp;&amp; text(copado__Status__c)!=&#39;Create Release Notes&#39;</errorConditionFormula>
+    <errorMessage>You are not allowed to reopen tasks</errorMessage>
+</ValidationRule>

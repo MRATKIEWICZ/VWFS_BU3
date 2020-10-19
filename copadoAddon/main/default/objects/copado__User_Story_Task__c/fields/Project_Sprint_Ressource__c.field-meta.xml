@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Sprint_Ressource__c</fullName>
+    <externalId>false</externalId>
+    <formula>Project__c+&#39;/&#39;+ Sprint__c+&#39;/&#39;+ Developer__r.FirstName +&#39;.&#39;+ Developer__r.LastName+&#39;/&#39;+ Team__c+&#39;/&#39;+ if(Onsite__c = TRUE, &#39;Onsite&#39;,&#39;Offsite&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Project/Sprint/Ressource/Team/Location</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
